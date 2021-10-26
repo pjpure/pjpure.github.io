@@ -1,0 +1,35 @@
+$sidebar-width: 320px;
+$sidebar-bg-color: #040a14;
+$icon-bg-color: transparent;
+$highlight-color: #ffffff;
+$sidebar-color: #6f7180;
+$icon-size: 50px !default;
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.setSideBar {
+  height: 100vh;
+}
+
+.gitBtn {
+  background-color: #172536 !important;
+  width: 200px;
+  border-color: transparent !important;
+  font-size: 14px;
+  font-weight: bold !important;
+  color: #6f7180 !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.7rem; /* Footer height */
+}
