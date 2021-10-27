@@ -1,11 +1,15 @@
 import React from "react";
 import SideBar from "./SideBar/SideBar";
+import Contents from "./Contents/Contents";
 import { Row, Col } from "react-bootstrap";
 import "./HomePage.css";
 function HomePage() {
   return (
-    <div>
+    <div className="home-page-bg">
       <SideBar />
+      <div className="content">
+        <Contents />
+      </div>
     </div>
   );
 }

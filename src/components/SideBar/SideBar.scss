@@ -10,6 +10,8 @@ $icon-size: 50px !default;
 .menu {
   height: 100vh;
   min-height: 640px;
+  display: block;
+  position: fixed;
 }
 
 .gitBtn {
@@ -51,8 +53,8 @@ $icon-size: 50px !default;
     z-index: 2;
   }
   .menu {
-    display: flex;
-    position: absolute;
+    display: block;
+    position: fixed;
     height: 100vh;
     min-height: 640px;
     left: -100%;
