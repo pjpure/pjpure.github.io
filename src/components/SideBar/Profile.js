@@ -11,6 +11,7 @@ function Profile() {
           marginBottom: "15px",
         }}
         src="https://avatars.githubusercontent.com/u/53260091?v=4"
+        alt="profile"
       />
       <p style={{ color: "#ffffff", fontSize: "23pt", fontWeight: "bold" }}>
         Pattapon Janchoo

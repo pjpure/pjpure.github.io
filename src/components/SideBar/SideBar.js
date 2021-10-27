@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ProSidebar, Menu, MenuItem, SidebarFooter } from "react-pro-sidebar";
+import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import {
   AiOutlineHome,
   AiOutlineUser,
@@ -12,10 +12,12 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { Button } from "react-bootstrap";
 import Profile from "./Profile";
 import "./SideBar.scss";
+import { Link } from "react-scroll";
 function SideBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const onClickMenu = () => setClick(false);
+
   return (
     <div>
       <div className="mobile-menu" onClick={handleClick}>
@@ -26,29 +28,54 @@ function SideBar() {
           <Profile />
           <Menu iconShape="square">
             <MenuItem icon={<AiOutlineHome size={30} />}>
-              <a onClick={closeMobileMenu} style={{ fontSize: "14pt" }}>
+              <Link
+                to="home"
+                spy={true}
+                onClick={onClickMenu}
+                style={{ fontSize: "14pt" }}
+              >
                 Home
-              </a>
+              </Link>
             </MenuItem>
             <MenuItem icon={<AiOutlineUser size={30} />}>
-              <a onClick={closeMobileMenu} style={{ fontSize: "14pt" }}>
+              <Link
+                to="about"
+                spy={true}
+                onClick={onClickMenu}
+                style={{ fontSize: "14pt" }}
+              >
                 About
-              </a>
+              </Link>
             </MenuItem>
             <MenuItem icon={<AiOutlineFileText size={30} />}>
-              <a onClick={closeMobileMenu} style={{ fontSize: "14pt" }}>
+              <Link
+                to="resume"
+                spy={true}
+                onClick={onClickMenu}
+                style={{ fontSize: "14pt" }}
+              >
                 Resume
-              </a>
+              </Link>
             </MenuItem>
             <MenuItem icon={<AiOutlineProject size={30} />}>
-              <a onClick={closeMobileMenu} style={{ fontSize: "14pt" }}>
+              <Link
+                to="portfolio"
+                spy={true}
+                onClick={onClickMenu}
+                style={{ fontSize: "14pt" }}
+              >
                 Portfolio
-              </a>
+              </Link>
             </MenuItem>
             <MenuItem icon={<AiOutlineMail size={30} />}>
-              <a onClick={closeMobileMenu} style={{ fontSize: "14pt" }}>
+              <Link
+                to="contact"
+                spy={true}
+                onClick={onClickMenu}
+                style={{ fontSize: "14pt" }}
+              >
                 Contact
-              </a>
+              </Link>
             </MenuItem>
           </Menu>
 
