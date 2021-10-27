@@ -1,8 +1,9 @@
 import React from "react";
+import "./About.css";
 
 function About() {
   return (
-    <div style={{ height: "100vh" }} id="about">
+    <div className="about-bg" id="about">
       About
     </div>
   );

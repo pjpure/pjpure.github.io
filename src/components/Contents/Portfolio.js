@@ -1,8 +1,9 @@
 import React from "react";
+import "./Portfolio.css";
 
 function Portfolio() {
   return (
-    <div style={{ height: "100vh" }} id="portfolio">
+    <div className="portfolio-bg" id="portfolio">
       Portfolio
     </div>
   );

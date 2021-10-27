@@ -1,8 +1,9 @@
 import React from "react";
+import "./Resume.css";
 
 function Resume() {
   return (
-    <div style={{ height: "100vh" }} id="resume">
+    <div className="resume-bg" id="resume">
       Resume
     </div>
   );

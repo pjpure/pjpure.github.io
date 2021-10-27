@@ -1,8 +1,9 @@
 import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <div style={{ height: "100vh" }} id="contact">
+    <div className="contact-bg" id="contact">
       Contact
     </div>
   );
