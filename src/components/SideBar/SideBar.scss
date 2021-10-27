@@ -7,8 +7,9 @@ $icon-size: 50px !default;
 
 @import "~react-pro-sidebar/dist/scss/styles.scss";
 
-.setSideBar {
+.menu {
   height: 100vh;
+  min-height: 640px;
 }
 
 .gitBtn {
@@ -22,14 +23,43 @@ $icon-size: 50px !default;
   border-radius: 20px !important;
 }
 
-.container {
-  position: relative;
-  min-height: 100vh;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 3.7rem; /* Footer height */
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    background-color: #172536;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-top: 14px;
+    right: 14px;
+    z-index: 2;
+  }
+  .menu {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    min-height: 640px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  .menu.active {
+    left: 0;
+    z-index: 1;
+  }
 }

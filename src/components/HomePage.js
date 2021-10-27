@@ -1,6 +1,7 @@
 import React from "react";
 import SideBar from "./SideBar/SideBar";
-import { AiOutlineHome } from "react-icons/ai";
+import { Row, Col } from "react-bootstrap";
+import "./HomePage.css";
 function HomePage() {
   return (
     <div>
