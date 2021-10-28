@@ -20,10 +20,6 @@ function SideBar() {
     setClick(false);
   };
 
-  const getElemId = () => {
-    let elem = document.elementFromPoint(window.innerWidth - 1, 0);
-  };
-
   return (
     <div>
       <div className="mobile-menu" onClick={handleClick}>
