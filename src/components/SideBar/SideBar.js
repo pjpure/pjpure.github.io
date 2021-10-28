@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import {
   AiOutlineHome,
@@ -16,7 +16,13 @@ import { Link } from "react-scroll";
 function SideBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const onClickMenu = () => setClick(false);
+  const onClickMenu = () => {
+    setClick(false);
+  };
+
+  const getElemId = () => {
+    let elem = document.elementFromPoint(window.innerWidth - 1, 0);
+  };
 
   return (
     <div>
@@ -29,6 +35,7 @@ function SideBar() {
           <Menu iconShape="square">
             <MenuItem icon={<AiOutlineHome size={30} />}>
               <Link
+                activeClass="active"
                 to="home"
                 spy={true}
                 onClick={onClickMenu}
@@ -39,6 +46,7 @@ function SideBar() {
             </MenuItem>
             <MenuItem icon={<AiOutlineUser size={30} />}>
               <Link
+                activeClass="active"
                 to="about"
                 spy={true}
                 onClick={onClickMenu}
@@ -49,6 +57,7 @@ function SideBar() {
             </MenuItem>
             <MenuItem icon={<AiOutlineFileText size={30} />}>
               <Link
+                activeClass="active"
                 to="resume"
                 spy={true}
                 onClick={onClickMenu}
@@ -59,6 +68,7 @@ function SideBar() {
             </MenuItem>
             <MenuItem icon={<AiOutlineProject size={30} />}>
               <Link
+                activeClass="active"
                 to="portfolio"
                 spy={true}
                 onClick={onClickMenu}
@@ -69,6 +79,7 @@ function SideBar() {
             </MenuItem>
             <MenuItem icon={<AiOutlineMail size={30} />}>
               <Link
+                activeClass="active"
                 to="contact"
                 spy={true}
                 onClick={onClickMenu}

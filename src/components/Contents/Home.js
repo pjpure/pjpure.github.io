@@ -3,14 +3,12 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div id="home">
-      <div className="home-con">
-        <div className="home-text-head">
-          <p>Pattapon Janchoo</p>
-        </div>
-        <div className="home-text-con">
-          <p>I'm Developer</p>
-        </div>
+    <div id="home" className="home-con">
+      <div className="home-text-head">
+        <p>Pattapon Janchoo</p>
+      </div>
+      <div className="home-text-con">
+        <p>I'm Developer</p>
       </div>
     </div>
   );

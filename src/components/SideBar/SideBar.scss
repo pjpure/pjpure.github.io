@@ -1,9 +1,8 @@
 $sidebar-width: 320px;
 $sidebar-bg-color: #040a14;
 $icon-bg-color: transparent;
-$highlight-color: #ffffff;
+$highlight-color: #6f7180;
 $sidebar-color: #6f7180;
-$icon-size: 50px;
 
 @import "~react-pro-sidebar/dist/scss/styles.scss";
 
@@ -34,6 +33,9 @@ $icon-size: 50px;
 
 .mobile-menu {
   display: none;
+}
+.active {
+  color: #ffffff !important;
 }
 
 @media screen and (max-width: 1200px) {
