@@ -1,4 +1,12 @@
 .portfolio-bg {
   background-color: #ffffff;
-  height: 100vh;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.portfolio-head {
+}
+
+.portfolio-con {
+  margin-top: 23px;
 }

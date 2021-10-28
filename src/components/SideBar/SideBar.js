@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import {
   AiOutlineHome,
@@ -9,7 +9,7 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 import { FiMenu, FiX } from "react-icons/fi";
-import { Button } from "react-bootstrap";
+import { Button, Row, Col } from "react-bootstrap";
 import Profile from "./Profile";
 import "./SideBar.scss";
 import { Link } from "react-scroll";
@@ -33,59 +33,89 @@ function SideBar() {
         <ProSidebar>
           <Profile />
           <Menu iconShape="square">
-            <MenuItem icon={<AiOutlineHome size={30} />}>
+            <MenuItem>
               <Link
                 activeClass="active"
                 to="home"
                 spy={true}
                 onClick={onClickMenu}
-                style={{ fontSize: "14pt" }}
               >
-                Home
+                <Row>
+                  <Col className="icon-menu" xs="2">
+                    <AiOutlineHome size={27} />
+                  </Col>
+                  <Col className="text-menu" xs="9">
+                    Home
+                  </Col>
+                </Row>
               </Link>
             </MenuItem>
-            <MenuItem icon={<AiOutlineUser size={30} />}>
+            <MenuItem>
               <Link
                 activeClass="active"
                 to="about"
                 spy={true}
                 onClick={onClickMenu}
-                style={{ fontSize: "14pt" }}
               >
-                About
+                <Row>
+                  <Col className="icon-menu" xs="2">
+                    <AiOutlineUser size={27} />
+                  </Col>
+                  <Col className="text-menu" xs="9">
+                    About
+                  </Col>
+                </Row>
               </Link>
             </MenuItem>
-            <MenuItem icon={<AiOutlineFileText size={30} />}>
+            <MenuItem>
               <Link
                 activeClass="active"
                 to="resume"
                 spy={true}
                 onClick={onClickMenu}
-                style={{ fontSize: "14pt" }}
               >
-                Resume
+                <Row>
+                  <Col className="icon-menu" xs="2">
+                    <AiOutlineFileText size={27} />
+                  </Col>
+                  <Col className="text-menu" xs="9">
+                    Resume
+                  </Col>
+                </Row>
               </Link>
             </MenuItem>
-            <MenuItem icon={<AiOutlineProject size={30} />}>
+            <MenuItem>
               <Link
                 activeClass="active"
                 to="portfolio"
                 spy={true}
                 onClick={onClickMenu}
-                style={{ fontSize: "14pt" }}
               >
-                Portfolio
+                <Row>
+                  <Col className="icon-menu" xs="2">
+                    <AiOutlineProject size={27} />
+                  </Col>
+                  <Col className="text-menu" xs="9">
+                    Portfolio
+                  </Col>
+                </Row>
               </Link>
             </MenuItem>
-            <MenuItem icon={<AiOutlineMail size={30} />}>
+            <MenuItem>
               <Link
                 activeClass="active"
                 to="contact"
                 spy={true}
                 onClick={onClickMenu}
-                style={{ fontSize: "14pt" }}
               >
-                Contact
+                <Row>
+                  <Col className="icon-menu" xs="2">
+                    <AiOutlineMail size={27} />
+                  </Col>
+                  <Col className="text-menu" xs="9">
+                    Contact
+                  </Col>
+                </Row>
               </Link>
             </MenuItem>
           </Menu>

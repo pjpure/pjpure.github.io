@@ -13,6 +13,12 @@ body {
 .content {
   margin-left: 320px;
 }
+h2 {
+  font-weight: 900 !important;
+  border-bottom: 5px solid #149ddd;
+  color: #173b6c;
+  display: inline;
+}
 
 @media screen and (max-width: 1200px) {
   .content {

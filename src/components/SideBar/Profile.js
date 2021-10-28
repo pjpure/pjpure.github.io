@@ -13,7 +13,14 @@ function Profile() {
         src="https://avatars.githubusercontent.com/u/53260091?v=4"
         alt="profile"
       />
-      <p style={{ color: "#ffffff", fontSize: "23pt", fontWeight: "bold" }}>
+      <p
+        style={{
+          color: "#ffffff",
+          fontSize: "23pt",
+          fontWeight: "bold",
+          marginBottom: "23px",
+        }}
+      >
         Pattapon Janchoo
       </p>
     </div>

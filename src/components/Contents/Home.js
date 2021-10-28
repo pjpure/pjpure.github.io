@@ -8,7 +8,7 @@ function Home() {
         <p>Pattapon Janchoo</p>
       </div>
       <div className="home-text-con">
-        <p>I'm Developer</p>
+        <p>I'm a Developer</p>
       </div>
     </div>
   );
