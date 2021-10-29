@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
@@ -19,6 +19,14 @@ h2 {
   color: #173b6c;
   display: inline;
 }
+
+h3 {
+  font-weight: 600 !important;
+  color: #173b6c;
+}
+/* p {
+  font-size: 14pt;
+} */
 
 @media screen and (max-width: 1200px) {
   .content {

@@ -23,7 +23,23 @@ function SideBar() {
   return (
     <div>
       <div className="mobile-menu" onClick={handleClick}>
-        {click ? <FiX /> : <FiMenu />}
+        {click ? (
+          <FiX
+            style={{
+              textAlign: "center",
+              alignItems: "center",
+              height: "100%",
+            }}
+          />
+        ) : (
+          <FiMenu
+            style={{
+              textAlign: "center",
+              alignItems: "center",
+              height: "100%",
+            }}
+          />
+        )}
       </div>
       <div className={click ? "menu active" : "menu"}>
         <ProSidebar>

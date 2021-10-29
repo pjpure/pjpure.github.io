@@ -1,0 +1,29 @@
+.about-bg {
+  background-color: #ffffff;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.about-con {
+  margin-top: 23px;
+}
+
+.about-img {
+  width: 100%;
+  margin-bottom: 23px;
+  margin-top: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.about-info {
+  display: inline-block;
+  line-height: 23pt;
+}
+
+.about-icon {
+  display: inline-block;
+  margin-right: 5px;
+  color: #26a4df;
+  font-size: 14px;
+}
