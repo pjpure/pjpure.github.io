@@ -21,7 +21,7 @@ function Education() {
     <div className="edu-bg">
       <Container>
         <div className="resume-head">
-          <h2>Education</h2>
+          <h3>Education</h3>
         </div>
         <div className="edu-con">
           <Timeline theme={customTheme} dateFormat="ll">

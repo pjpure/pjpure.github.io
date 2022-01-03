@@ -31,7 +31,7 @@ function About() {
                 <Col lg="12">
                   <h3>I'm Software Developer</h3>{" "}
                 </Col>
-                <Col lg="12">
+                <Col style={{ marginBottom: "14px" }} lg="12">
                   <p>
                     Hi, My name is Pattapon Janchoo. I am a computer engineering
                     student at King Mongkut's Institute of Technology
@@ -87,7 +87,7 @@ function About() {
                   </div>
                 </Col>
 
-                <Col lg="12">
+                <Col style={{ marginTop: "14px" }} lg="12">
                   <Button
                     style={{
                       width: "200px",
@@ -108,8 +108,8 @@ function About() {
             </Col>
           </Row>
         </div>
+        <Resume />
       </Container>
-      <Resume />
     </div>
   );
 }

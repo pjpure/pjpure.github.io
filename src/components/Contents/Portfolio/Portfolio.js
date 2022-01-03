@@ -14,7 +14,7 @@ function Portfolio() {
   const projectsList = projects.map((project, index) => {
     console.log(project);
     return (
-      <Col key={index} sm="12" md="6" lg="4">
+      <Col key={index} sm="12" md="6" lg="4" style={{ marginBottom: "20px" }}>
         <Card className="port-card">
           <Card.Img variant="top" src={project.img} />
           <Card.Body>

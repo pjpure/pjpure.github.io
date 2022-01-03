@@ -5,7 +5,7 @@
 }
 
 .edu-bg {
-  background-color: #f5f8fd;
+  background-color: #ffffff;
   padding-top: 46px;
   padding-bottom: 46px;
 }
@@ -16,4 +16,14 @@
 
 .edu-con {
   margin-top: 36px;
+}
+
+.skill-icon {
+  color: #173b6c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill-name {
+  font-weight: 600 !important;
 }
