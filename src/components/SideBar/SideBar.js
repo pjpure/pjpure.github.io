@@ -79,23 +79,7 @@ function SideBar() {
                 </Row>
               </Link>
             </MenuItem>
-            <MenuItem>
-              <Link
-                activeClass="active"
-                to="resume"
-                spy={true}
-                onClick={onClickMenu}
-              >
-                <Row>
-                  <Col className="icon-menu" xs="2">
-                    <AiOutlineFileText size={27} />
-                  </Col>
-                  <Col className="text-menu" xs="9">
-                    Resume
-                  </Col>
-                </Row>
-              </Link>
-            </MenuItem>
+
             <MenuItem>
               <Link
                 activeClass="active"

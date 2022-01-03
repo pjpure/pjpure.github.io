@@ -5,5 +5,47 @@
 }
 
 .portfolio-con {
+  display: flex;
   margin-top: 23px;
+  margin-bottom: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+  text-align: center;
+  background-color: #f5f8fd;
+  border-radius: 40px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
 }
+
+.port {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.port:hover {
+  color: #0e9fdd;
+  text-decoration: none;
+  cursor: pointer;
+}
+.port-card {
+}
+
+/* .btn-portfolio {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  outline: none !important;
+}
+.btn-portfolio:hover,
+.btn-portfolio:active,
+.btn-portfolio:focus,
+.btn-portfolio:visited {
+  color: #0e9fdd !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+} */

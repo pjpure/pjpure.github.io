@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaChevronRight } from "react-icons/fa";
+import Resume from "./Resume/Resume.js";
+
 function About() {
   function getAge(d1, d2) {
     d2 = d2 || new Date();
@@ -13,15 +15,9 @@ function About() {
     <div className="about-bg" id="about">
       <Container>
         <div className="about-head">
-          <h2>About</h2>
+          <h2>About Me</h2>
         </div>
         <div className="about-con">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
           <Row style={{ marginTop: "27px" }}>
             <Col lg="4">
               <img
@@ -31,12 +27,22 @@ function About() {
               />
             </Col>
             <Col lg="8">
-              <h3>Software Developer</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
               <Row>
+                <Col lg="12">
+                  <h3>I'm Software Developer</h3>{" "}
+                </Col>
+                <Col lg="12">
+                  <p>
+                    Hi, My name is Pattapon Janchoo. I am a computer engineering
+                    student at King Mongkut's Institute of Technology
+                    Ladkrabang. I am interested in software development and
+                    innovations that will make everything easier. I want to
+                    learn how to work as a software developer in a real company.
+                    I intended to develop my skills and learn something new
+                    every day from your company.
+                  </p>
+                </Col>
+
                 <Col lg="6">
                   <div>
                     <FaChevronRight className="about-icon" />
@@ -44,12 +50,7 @@ function About() {
                       <strong>Name: </strong> Pattapon Janchoo
                     </p>
                   </div>
-                  <div>
-                    <FaChevronRight className="about-icon" />
-                    <p className="about-info">
-                      <strong>Birthday: </strong>8 Nov 2000
-                    </p>
-                  </div>
+
                   <div>
                     <FaChevronRight className="about-icon" />
                     <p className="about-info">
@@ -60,7 +61,7 @@ function About() {
                   <div>
                     <FaChevronRight className="about-icon" />
                     <p className="about-info">
-                      <strong>Phone: </strong> 0812345678
+                      <strong>Phone: </strong> +6691-846-9519
                     </p>
                   </div>
                 </Col>
@@ -75,12 +76,6 @@ function About() {
                   <div>
                     <FaChevronRight className="about-icon" />
                     <p className="about-info">
-                      <strong>Degree: </strong> Junior
-                    </p>
-                  </div>
-                  <div>
-                    <FaChevronRight className="about-icon" />
-                    <p className="about-info">
                       <strong>Email:</strong> pjpure14@gmail.com
                     </p>
                   </div>
@@ -91,20 +86,30 @@ function About() {
                     </p>
                   </div>
                 </Col>
+
+                <Col lg="12">
+                  <Button
+                    style={{
+                      width: "200px",
+                      height: "50px",
+                      background: "#173b6c",
+                    }}
+                  >
+                    <a
+                      href="resume.pdf"
+                      target="_blank"
+                      style={{ color: "white", textDecoration: "none" }}
+                    >
+                      Resume
+                    </a>
+                  </Button>
+                </Col>
               </Row>
-              <p>
-                Officiis eligendi itaque labore et dolorum mollitia officiis
-                optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                consectetur qui quia repellendus itaque neque. Aliquid amet
-                quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                culpa magni laudantium dolores.
-              </p>
             </Col>
           </Row>
         </div>
       </Container>
+      <Resume />
     </div>
   );
 }

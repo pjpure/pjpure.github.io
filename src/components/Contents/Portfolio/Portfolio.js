@@ -1,26 +1,47 @@
 import React from "react";
 import "./Portfolio.css";
-import { Container } from "react-bootstrap";
+// import projects from "./Portfolio.json";
+import { Container, Row, Col, Card } from "react-bootstrap";
 function Portfolio() {
+  const projects = [
+    { name: "A", type: "A", img: "port1.jpg", des: "React" },
+    { name: "B", type: "B", img: "port2.jpg", des: "React" },
+    { name: "C", type: "C", img: "port2.jpg", des: "React" },
+    { name: "A", type: "A", img: "port1.jpg", des: "React" },
+    { name: "B", type: "B", img: "port2.jpg", des: "React" },
+    { name: "C", type: "C", img: "port2.jpg", des: "React" },
+  ];
+  const projectsList = projects.map((project, index) => {
+    console.log(project);
+    return (
+      <Col key={index} sm="12" md="6" lg="4">
+        <Card className="port-card">
+          <Card.Img variant="top" src={project.img} />
+          <Card.Body>
+            <Card.Title>{project.name}</Card.Title>
+            <Card.Text>{project.des}</Card.Text>
+            <Card.Link href="#">Card Link</Card.Link>
+          </Card.Body>
+        </Card>
+      </Col>
+    );
+  });
+
   return (
     <div className="portfolio-bg" id="portfolio">
       <Container>
         <div className="portfolio-head">
           <h2>Portfolio</h2>
         </div>
-        <div className="portfolio-con">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
+        <div style={{ textAlign: "center", marginBottom: "50px" }}>
+          <div className="portfolio-con">
+            <a className="port">All</a>
+            <a className="port">Web</a>
+            <a className="port">App</a>
+            <a className="port">Game</a>
+          </div>
         </div>
+        <Row>{projectsList}</Row>
       </Container>
     </div>
   );
