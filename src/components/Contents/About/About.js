@@ -88,21 +88,21 @@ function About() {
                 </Col>
 
                 <Col style={{ marginTop: "14px" }} lg="12">
-                  <Button
-                    style={{
-                      width: "200px",
-                      height: "50px",
-                      background: "#173b6c",
-                    }}
+                  <a
+                    href="resume.pdf"
+                    target="_blank"
+                    style={{ color: "white", textDecoration: "none" }}
                   >
-                    <a
-                      href="resume.pdf"
-                      target="_blank"
-                      style={{ color: "white", textDecoration: "none" }}
+                    <Button
+                      style={{
+                        width: "200px",
+                        height: "50px",
+                        background: "#173b6c",
+                      }}
                     >
                       Resume
-                    </a>
-                  </Button>
+                    </Button>
+                  </a>
                 </Col>
               </Row>
             </Col>

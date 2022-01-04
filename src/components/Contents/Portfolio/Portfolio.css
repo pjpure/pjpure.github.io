@@ -2,6 +2,7 @@
   background-color: #f5f8fd;
   padding-top: 46px;
   padding-bottom: 46px;
+  min-height: 100vh;
 }
 
 .portfolio-con {
@@ -27,7 +28,17 @@
   text-decoration: none;
 }
 
-.port:hover {
+.port-selected {
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #0e9fdd;
+  text-decoration: none;
+}
+
+.port:hover,
+.port:focus,
+.port-selected:hover,
+.port-selected:focus {
   color: #0e9fdd;
   text-decoration: none;
   cursor: pointer;

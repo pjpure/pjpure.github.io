@@ -30,7 +30,7 @@ function Skills() {
                 <IoLogoJavascript className="skill-icon" size={40} /> JavaScript
               </div>
               <div>
-                <FaHtml5 className="skill-icon" size={40} /> HTML/CSS
+                <FaHtml5 className="skill-icon" size={40} /> HTML
               </div>
               <div>
                 <FaCss3Alt className="skill-icon" size={40} /> CSS

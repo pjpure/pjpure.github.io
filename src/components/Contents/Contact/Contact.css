@@ -2,6 +2,7 @@
   background-color: #ffffff;
   padding-top: 46px;
   padding-bottom: 46px;
+  min-height: 100vh;
 }
 
 .contact-con {
