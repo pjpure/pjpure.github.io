@@ -7,4 +7,11 @@
 
 .contact-con {
   margin-top: 23px;
+  line-height: 14pt;
+  font-size: 14pt;
+}
+
+.contact-icon {
+  float: left;
+  margin-right: 23px;
 }

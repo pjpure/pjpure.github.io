@@ -43,20 +43,7 @@
   text-decoration: none;
   cursor: pointer;
 }
-.port-card {
+.port-img {
+  height: 250px;
+  width: auto;
 }
-
-/* .btn-portfolio {
-  color: #000000 !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-  outline: none !important;
-}
-.btn-portfolio:hover,
-.btn-portfolio:active,
-.btn-portfolio:focus,
-.btn-portfolio:visited {
-  color: #0e9fdd !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-} */

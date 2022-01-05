@@ -47,7 +47,7 @@ function Skills() {
                 <SiFlask className="skill-icon" size={38} /> Flask
               </div>
               <div>
-                <SiKeras className="skill-icon" size={39} /> Keras
+                <SiJava className="skill-icon" size={39} /> Java
               </div>
             </Col>
             <Col className="skill-name">
