@@ -97,34 +97,42 @@ function Portfolio() {
         </div>
         <div style={{ textAlign: "center", marginBottom: "50px" }}>
           <div className="portfolio-con">
-            <a
-              className={state == "all" ? "port-selected" : "port"}
-              name="all"
-              onClick={onStateChange}
-            >
-              All
-            </a>
-            <a
-              className={state == "web" ? "port-selected" : "port"}
-              name="web"
-              onClick={onStateChange}
-            >
-              Web
-            </a>
-            <a
-              className={state == "app" ? "port-selected" : "port"}
-              name="app"
-              onClick={onStateChange}
-            >
-              App
-            </a>
-            <a
-              className={state == "game" ? "port-selected" : "port"}
-              name="game"
-              onClick={onStateChange}
-            >
-              Game
-            </a>
+            <div className="port-box">
+              <a
+                className={state == "all" ? "port-selected" : "port"}
+                name="all"
+                onClick={onStateChange}
+              >
+                All
+              </a>
+            </div>
+            <div className="port-box">
+              <a
+                className={state == "web" ? "port-selected" : "port"}
+                name="web"
+                onClick={onStateChange}
+              >
+                Web
+              </a>
+            </div>
+            <div className="port-box">
+              <a
+                className={state == "app" ? "port-selected" : "port"}
+                name="app"
+                onClick={onStateChange}
+              >
+                App
+              </a>
+            </div>
+            <div className="port-box">
+              <a
+                className={state == "game" ? "port-selected" : "port"}
+                name="game"
+                onClick={onStateChange}
+              >
+                Game
+              </a>
+            </div>
           </div>
         </div>
         <Row>{projectsList}</Row>

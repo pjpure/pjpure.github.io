@@ -22,7 +22,7 @@ function Skills() {
         </div>
         <div className="resume-con">
           <Row>
-            <Col className="skill-name">
+            <Col className="skill-name" xs="6" md="4">
               <div>
                 <FaReact className="skill-icon" size={40} /> ReactJS
               </div>
@@ -36,7 +36,7 @@ function Skills() {
                 <FaCss3Alt className="skill-icon" size={40} /> CSS
               </div>
             </Col>
-            <Col className="skill-name">
+            <Col className="skill-name" xs="6" md="4">
               <div>
                 <FaPython className="skill-icon" size={40} /> Python
               </div>
@@ -50,7 +50,7 @@ function Skills() {
                 <SiJava className="skill-icon" size={39} /> Java
               </div>
             </Col>
-            <Col className="skill-name">
+            <Col className="skill-name" xs="6" md="4">
               <div>
                 <SiCoursera className="skill-icon" size={40} /> C
               </div>
