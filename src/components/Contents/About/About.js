@@ -33,7 +33,7 @@ function About() {
                 </Col>
                 <Col style={{ marginBottom: "14px" }} lg="12">
                   <p>
-                    I am a third year computer engineering student at King
+                    Hi, I am a third year computer engineering student at King
                     Mongkut's Institute of Technology Ladkrabang. I am
                     interested in software development and innovations that will
                     make everything easier. I want to learn how to work as a
