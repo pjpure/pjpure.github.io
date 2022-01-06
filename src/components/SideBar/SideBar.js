@@ -3,7 +3,6 @@ import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import {
   AiOutlineHome,
   AiOutlineUser,
-  AiOutlineFileText,
   AiOutlineProject,
   AiOutlineMail,
   AiOutlineGithub,

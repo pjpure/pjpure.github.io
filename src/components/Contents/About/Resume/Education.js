@@ -3,7 +3,6 @@ import "./Resume.css";
 import { Container } from "react-bootstrap";
 import {
   Timeline,
-  YearContent,
   BodyContent,
   Section,
   Description,

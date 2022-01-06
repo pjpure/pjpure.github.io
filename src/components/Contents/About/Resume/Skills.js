@@ -6,7 +6,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiDjango,
   SiFlask,
-  SiKeras,
   SiCplusplus,
   SiCoursera,
   SiCsharp,

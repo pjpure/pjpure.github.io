@@ -99,7 +99,7 @@ function Portfolio() {
           <div className="portfolio-con">
             <div className="port-box">
               <a
-                className={state == "all" ? "port-selected" : "port"}
+                className={state === "all" ? "port-selected" : "port"}
                 name="all"
                 onClick={onStateChange}
               >
@@ -108,7 +108,7 @@ function Portfolio() {
             </div>
             <div className="port-box">
               <a
-                className={state == "web" ? "port-selected" : "port"}
+                className={state === "web" ? "port-selected" : "port"}
                 name="web"
                 onClick={onStateChange}
               >
@@ -117,7 +117,7 @@ function Portfolio() {
             </div>
             <div className="port-box">
               <a
-                className={state == "app" ? "port-selected" : "port"}
+                className={state === "app" ? "port-selected" : "port"}
                 name="app"
                 onClick={onStateChange}
               >
@@ -126,7 +126,7 @@ function Portfolio() {
             </div>
             <div className="port-box">
               <a
-                className={state == "game" ? "port-selected" : "port"}
+                className={state === "game" ? "port-selected" : "port"}
                 name="game"
                 onClick={onStateChange}
               >

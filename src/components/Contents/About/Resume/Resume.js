@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Education from "./Education.js";
 import Skills from "./Skills.js";
 function Resume() {
