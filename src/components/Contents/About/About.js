@@ -29,7 +29,7 @@ function About() {
             <Col lg="8">
               <Row>
                 <Col lg="12">
-                  <h3>I'm a Software Developer</h3>{" "}
+                  <h3>Software Developer</h3>{" "}
                 </Col>
                 <Col style={{ marginBottom: "14px" }} lg="12">
                   <p>
