@@ -1,5 +1,5 @@
 .home-con {
-  height: 100vh;
+  min-height: 105vh;
   margin-left: 27vw;
   padding-top: 32vh;
 }

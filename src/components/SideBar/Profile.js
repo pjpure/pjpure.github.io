@@ -18,7 +18,7 @@ function Profile() {
       <p
         style={{
           color: "#ffffff",
-          fontSize: "23pt",
+          fontSize: "19pt",
           fontWeight: "bold",
           marginBottom: "23px",
         }}
