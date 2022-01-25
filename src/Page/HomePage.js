@@ -1,6 +1,6 @@
 import React from "react";
-import SideBar from "./SideBar/SideBar";
-import Contents from "./Contents/Contents";
+import SideBar from "../components/SideBar/SideBar";
+import Contents from "../components/Contents/Contents";
 import "./HomePage.css";
 
 function HomePage() {

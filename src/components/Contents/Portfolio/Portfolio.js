@@ -85,53 +85,49 @@ function Portfolio() {
       );
     });
 
-  const onStateChange = (e) => {
-    setState(e.target.name);
+  const onStateChange = (tag) => {
+    setState(tag);
   };
 
   return (
-    <div className="portfolio-bg" id="portfolio">
+    <div id="portfolio" className="portfolio-bg">
       <Container>
-        <div className="portfolio-head">
+        <div className="portfolio-head" id="portfolio-head">
           <h2>Portfolio</h2>
         </div>
         <div style={{ textAlign: "center", marginBottom: "50px" }}>
           <div className="portfolio-con">
             <div className="port-box">
-              <a
+              <span
                 className={state === "all" ? "port-selected" : "port"}
-                name="all"
-                onClick={onStateChange}
+                onClick={() => onStateChange("all")}
               >
                 All
-              </a>
+              </span>
             </div>
             <div className="port-box">
-              <a
+              <span
                 className={state === "web" ? "port-selected" : "port"}
-                name="web"
-                onClick={onStateChange}
+                onClick={() => onStateChange("web")}
               >
                 Web
-              </a>
+              </span>
             </div>
             <div className="port-box">
-              <a
+              <span
                 className={state === "app" ? "port-selected" : "port"}
-                name="app"
-                onClick={onStateChange}
+                onClick={() => onStateChange("app")}
               >
                 App
-              </a>
+              </span>
             </div>
             <div className="port-box">
-              <a
+              <span
                 className={state === "game" ? "port-selected" : "port"}
-                name="game"
-                onClick={onStateChange}
+                onClick={() => onStateChange("game")}
               >
                 Game
-              </a>
+              </span>
             </div>
           </div>
         </div>

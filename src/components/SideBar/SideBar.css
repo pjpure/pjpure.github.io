@@ -1,10 +1,19 @@
-$sidebar-width: 306px;
-$sidebar-bg-color: #040a14;
-$icon-bg-color: transparent;
-$highlight-color: #6f7180;
-$sidebar-color: #6f7180;
+.sidebar-bg {
+  position: fixed;
+  background-color: #040a14;
+  width: 300px;
+  height: 100vh;
+}
 
-@import "~react-pro-sidebar/dist/scss/styles.scss";
+.menu-item {
+  color: #6f7180;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #ffffff;
+}
 
 .menu {
   height: 100vh;
@@ -42,15 +51,20 @@ $sidebar-color: #6f7180;
   color: #ffffff !important;
 }
 
+.menu-item-btn {
+  margin-left: 23px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
 .icon-menu {
   margin-left: 14px;
-  margin-bottom: 14px;
-  text-align: center;
-  line-height: 36px;
+  margin-right: 23px;
+  display: inline;
 }
 .text-menu {
-  line-height: 44px;
-  font-size: 19px;
+  font-size: 16px;
+  display: inline;
 }
 
 @media screen and (max-width: 1200px) {

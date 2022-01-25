@@ -25,16 +25,12 @@ function Education() {
         <div className="edu-con">
           <Timeline theme={customTheme} dateFormat="ll">
             <BodyContent>
-              <Section
-                title={
-                  <h5>King Mongkut's Institute of Technology Ladkrabang</h5>
-                }
-              >
+              <Section title="King Mongkut's Institute of Technology Ladkrabang">
                 <Description text="2019 - Present" />
                 <Description text="Computer Engineering" />
               </Section>
 
-              <Section title={<h5>Phatthalung School</h5>}>
+              <Section title="Phatthalung School">
                 <Description text="2012 - 2018" />
                 <Description text="High School Diploma" />
               </Section>

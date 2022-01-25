@@ -12,9 +12,9 @@ function About() {
   }
   const age = getAge(new Date(2000, 11, 8));
   return (
-    <div className="about-bg" id="about">
+    <div id="about" className="about-bg">
       <Container>
-        <div className="about-head">
+        <div className="about-head" id="about-head">
           <h2>About Me</h2>
         </div>
         <div className="about-con">

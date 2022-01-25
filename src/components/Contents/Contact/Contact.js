@@ -6,9 +6,9 @@ import { RiMailOpenFill } from "react-icons/ri";
 import { SiNamebase } from "react-icons/si";
 function Contact() {
   return (
-    <div className="contact-bg" id="contact">
+    <div id="contact" className="contact-bg">
       <Container>
-        <div className="contact-head">
+        <div className="contact-head" id="contact-head">
           <h2>Contact</h2>
         </div>
         <div className="contact-con">
@@ -40,7 +40,7 @@ function Contact() {
               <RiMailOpenFill size={45} />
             </div>
             <div>
-              <h5 s>Email </h5>
+              <h5>Email </h5>
               <a
                 style={{ color: "black", textDecoration: "none" }}
                 href="mailto:pjpure14@gmail.com"
