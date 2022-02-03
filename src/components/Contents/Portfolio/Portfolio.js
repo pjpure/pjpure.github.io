@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import personalwebsiteImg from "../../../assets/portfolio/personalwebsite.png";
+import dogifyImg from "../../../assets/portfolio/dogify.png";
+import hostdogImg from "../../../assets/portfolio/hostdog.png";
+import carparkImg from "../../../assets/portfolio/carpark.png";
+import ninningerImg from "../../../assets/portfolio/ninninger.png";
+
 function Portfolio() {
   const [state, setState] = useState("all");
   const projects = [
     {
       name: "Personal Website",
       type: "web",
-      img: "personalwebsite.png",
+      img: personalwebsiteImg,
       des: "ReactJS",
       github: "https://github.com/pjpure/pjpure.github.io",
       demo: "",
@@ -16,7 +22,7 @@ function Portfolio() {
     {
       name: "Dogify",
       type: "web",
-      img: "dogify.png",
+      img: dogifyImg,
       des: "ReactJS, Flask, Keras",
       github: "https://github.com/pjpure/Dogify",
       demo: "https://www.youtube.com/watch?v=Haj0N2hehrs",
@@ -25,7 +31,7 @@ function Portfolio() {
     {
       name: "Hostdogs",
       type: "web",
-      img: "hostdog.png",
+      img: hostdogImg,
       des: "ReactJS, Django",
       github: "https://github.com/Hostdogs",
       demo: "",
@@ -34,7 +40,7 @@ function Portfolio() {
     {
       name: "CarParking",
       type: "app",
-      img: "carpark.png",
+      img: carparkImg,
       des: "Java",
       github:
         "https://github.com/pjpure/ClassDocuments/tree/main/OOP/CarParcking/testproject01",
@@ -45,7 +51,7 @@ function Portfolio() {
     {
       name: "Ninninger",
       type: "game",
-      img: "ninninger.png",
+      img: ninningerImg,
       des: "C/C++",
       github: "https://github.com/pjpure/ClassDocuments/tree/main/ComFun/Game",
       demo: "https://www.youtube.com/watch?v=0WoHkXPbGPA",

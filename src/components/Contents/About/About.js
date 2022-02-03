@@ -3,6 +3,7 @@ import "./About.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaChevronRight } from "react-icons/fa";
 import Resume from "./Resume/Resume.js";
+import resumePDF from "../../../assets/about/resume.pdf";
 
 function About() {
   function getAge(d1, d2) {
@@ -75,7 +76,7 @@ function About() {
                   <div>
                     <FaChevronRight className="about-icon" />
                     <p className="about-info">
-                      <strong>Email:</strong> pjpure14@gmail.com
+                      <strong>Email:</strong> pattapon.pj@gmail.com
                     </p>
                   </div>
                   <div>
@@ -88,8 +89,9 @@ function About() {
 
                 <Col style={{ marginTop: "14px" }} lg="12">
                   <a
-                    href="resume.pdf"
+                    href={resumePDF}
                     target="_blank"
+                    rel="noreferrer"
                     style={{ color: "white", textDecoration: "none" }}
                   >
                     <Button

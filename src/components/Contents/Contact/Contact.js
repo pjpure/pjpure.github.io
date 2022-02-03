@@ -43,9 +43,9 @@ function Contact() {
               <h5>Email </h5>
               <a
                 style={{ color: "black", textDecoration: "none" }}
-                href="mailto:pjpure14@gmail.com"
+                href="mailto:pattapon.pj@gmail.com"
               >
-                pjpure14@gmail.com
+                pattapon.pj@gmail.com
               </a>
             </div>
           </div>
