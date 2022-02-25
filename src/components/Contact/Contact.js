@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import { FaMobileAlt } from "react-icons/fa";
 import { RiMailOpenFill } from "react-icons/ri";
 import { SiNamebase } from "react-icons/si";
+import profileData from "../../data/profile";
 function Contact() {
   return (
     <div id="contact" className="contact-bg">
@@ -18,7 +19,7 @@ function Contact() {
             </div>
             <div>
               <h5>Name </h5>
-              <p>Pattapon Janchoo</p>
+              <p>{profileData.name}</p>
             </div>
           </div>
           <div style={{ marginTop: "40px" }}>
@@ -29,9 +30,9 @@ function Contact() {
               <h5>Call </h5>
               <a
                 style={{ color: "black", textDecoration: "none" }}
-                href="Tel: +66 91 846 9519"
+                href={`tel:${profileData.phone}`}
               >
-                +6691-846-9519
+                {profileData.phone}
               </a>
             </div>
           </div>
@@ -43,9 +44,9 @@ function Contact() {
               <h5>Email </h5>
               <a
                 style={{ color: "black", textDecoration: "none" }}
-                href="mailto:pattapon.pj@gmail.com"
+                href={`mailto:${profileData.email}`}
               >
-                pattapon.pj@gmail.com
+                {profileData.email}
               </a>
             </div>
           </div>
