@@ -2,8 +2,8 @@ import React from "react";
 import "./About.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaChevronRight } from "react-icons/fa";
-import Resume from "./Resume/Resume.js";
-import resumePDF from "../../../assets/about/resume.pdf";
+import Resume from "../Resume/Resume.js";
+import resumePDF from "../../assets/about/resume.pdf";
 
 function About() {
   function getAge(d1, d2) {

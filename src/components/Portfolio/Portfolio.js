@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import personalwebsiteImg from "../../../assets/portfolio/personalwebsite.png";
-import dogifyImg from "../../../assets/portfolio/dogify.png";
-import hostdogImg from "../../../assets/portfolio/hostdog.png";
-import carparkImg from "../../../assets/portfolio/carpark.png";
-import ninningerImg from "../../../assets/portfolio/ninninger.png";
+import personalwebsiteImg from "../../assets/portfolio/personalwebsite.png";
+import dogifyImg from "../../assets/portfolio/dogify.png";
+import hostdogImg from "../../assets/portfolio/hostdog.png";
+import carparkImg from "../../assets/portfolio/carpark.png";
+import ninningerImg from "../../assets/portfolio/ninninger.png";
 
 function Portfolio() {
   const [state, setState] = useState("all");
