@@ -8,7 +8,6 @@ import {
 } from "react-icons/ai";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Button } from "react-bootstrap";
-import Profile from "./Profile";
 import "./SideBar.css";
 import { Link } from "react-scroll";
 import profileData from "../../data/profile";
@@ -42,7 +41,34 @@ function SideBar() {
       </div>
       <div className={click ? "menu active" : "menu"}>
         <div className="sidebar-bg">
-          <Profile />
+          <div
+            style={{
+              textAlign: "center",
+              marginTop: "15px",
+              marginBottom: "23px",
+            }}
+          >
+            <img
+              style={{
+                height: "140px",
+                borderRadius: "70px",
+                border: "8px solid #2C2F3F",
+                marginBottom: "15px",
+              }}
+              src={profileData.photo}
+              alt="profile"
+            />
+            <p
+              style={{
+                color: "#ffffff",
+                fontSize: "19pt",
+                fontWeight: "bold",
+                marginBottom: "23px",
+              }}
+            >
+              {profileData.name}
+            </p>
+          </div>
           <Link
             className="menu-item"
             activeClass="active"
