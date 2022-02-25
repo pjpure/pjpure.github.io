@@ -1,5 +1,5 @@
 import React from "react";
-
+import profileData from "../../data/profile";
 function Profile() {
   return (
     <div
@@ -12,7 +12,7 @@ function Profile() {
           border: "8px solid #2C2F3F",
           marginBottom: "15px",
         }}
-        src="https://avatars.githubusercontent.com/u/53260091?v=4"
+        src={profileData.photo}
         alt="profile"
       />
       <p
@@ -23,7 +23,7 @@ function Profile() {
           marginBottom: "23px",
         }}
       >
-        Pattapon Janchoo
+        {profileData.name}
       </p>
     </div>
   );

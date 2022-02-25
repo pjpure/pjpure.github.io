@@ -11,6 +11,7 @@ import { Button } from "react-bootstrap";
 import Profile from "./Profile";
 import "./SideBar.css";
 import { Link } from "react-scroll";
+import profileData from "../../data/profile";
 function SideBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -107,7 +108,7 @@ function SideBar() {
           <div className="footer" style={{ textAlign: "center" }}>
             <Button
               style={{ textAlign: "center", marginTop: "10px" }}
-              href="https://github.com/pjpure"
+              href={profileData.github}
               target="_blank"
               className="gitBtn"
             >

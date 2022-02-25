@@ -16,5 +16,6 @@ const profileData = {
   email: "pattapon.pj@gmail.com",
   website: "pjpure.github.io",
   city: "Bangkok, Thailand",
+  github: "https://github.com/pjpure",
 };
 export default profileData;
