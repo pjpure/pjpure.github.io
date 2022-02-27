@@ -8,9 +8,9 @@ import {
   SiFlask,
   SiCplusplus,
   SiCoursera,
-  SiCsharp,
-  SiArduino,
   SiJava,
+  SiTypescript,
+  SiNodedotjs,
 } from "react-icons/si";
 function Skills() {
   return (
@@ -37,6 +37,9 @@ function Skills() {
             </Col>
             <Col className="skill-name" xs="6" md="4">
               <div>
+                <SiTypescript className="skill-icon" size={39} /> Typescript
+              </div>
+              <div>
                 <FaPython className="skill-icon" size={40} /> Python
               </div>
               <div>
@@ -45,11 +48,11 @@ function Skills() {
               <div>
                 <SiFlask className="skill-icon" size={38} /> Flask
               </div>
-              <div>
-                <SiJava className="skill-icon" size={39} /> Java
-              </div>
             </Col>
             <Col className="skill-name" xs="6" md="4">
+              <div>
+                <SiNodedotjs className="skill-icon" size={40} /> NodeJS
+              </div>
               <div>
                 <SiCoursera className="skill-icon" size={40} /> C
               </div>
@@ -57,16 +60,14 @@ function Skills() {
                 <SiCplusplus className="skill-icon" size={40} /> C++
               </div>
               <div>
-                <SiCsharp className="skill-icon" size={40} /> C#
-              </div>
-              <div>
-                <SiArduino className="skill-icon" size={40} /> Arduino
+                <SiJava className="skill-icon" size={40} /> Java
               </div>
             </Col>
 
             <p style={{ marginTop: "14px" }}>
-              ReactJS, JavaScript, HTML/CSS, Python, Django, Flask, Keras C/C++,
-              Java, R, C#, SQL, ARM Assembly, Arduino, Git
+              ReactJS, JavaScript, TypeScript, NodeJS, ExpressJS ,ReduxToolkit,
+              HTML/CSS, Python, Django, Flask, Keras C/C++, Java, R, C#, SQL,
+              ARM, Assembly, Arduino, Git, MongoDB
             </p>
           </Row>
         </div>
