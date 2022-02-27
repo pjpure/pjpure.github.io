@@ -3,6 +3,7 @@ import dogifyImg from "../assets/portfolio/dogify.png";
 import hostdogImg from "../assets/portfolio/hostdog.png";
 import carparkImg from "../assets/portfolio/carpark.png";
 import ninningerImg from "../assets/portfolio/ninninger.png";
+import todoImg from "../assets/portfolio/todo.png";
 
 const portfolioData = [
   {
@@ -13,6 +14,15 @@ const portfolioData = [
     github: "https://github.com/pjpure/pjpure.github.io",
     demo: "",
     product: "https://pjpure.github.io/",
+  },
+  {
+    name: "Todo",
+    type: "web",
+    img: todoImg,
+    des: "MonogoDB, Express, React, Node, TypeScript, Redux",
+    github: "https://github.com/pjpure/MERN-Stack-Todo-App",
+    demo: "",
+    product: "https://todo-app-pjpure.netlify.app/",
   },
   {
     name: "Dogify",
