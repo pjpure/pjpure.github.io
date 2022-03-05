@@ -4,7 +4,7 @@ import hostdogImg from "../assets/portfolio/hostdog.png";
 import carparkImg from "../assets/portfolio/carpark.png";
 import ninningerImg from "../assets/portfolio/ninninger.png";
 import todoImg from "../assets/portfolio/todo.png";
-
+import netflixImg from "../assets/portfolio/netflix-clone.png";
 const portfolioData = [
   {
     name: "Personal Website",
@@ -14,6 +14,15 @@ const portfolioData = [
     github: "https://github.com/pjpure/pjpure.github.io",
     demo: "",
     product: "https://pjpure.github.io/",
+  },
+  {
+    name: "Netflix Clone",
+    type: "web",
+    img: netflixImg,
+    des: "React, Typescript",
+    github: "https://github.com/pjpure/netflix-clone",
+    demo: "",
+    product: "https://netflix-clone-pjpure.netlify.app/",
   },
   {
     name: "Todo",
