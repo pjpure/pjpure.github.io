@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.58c9d36b.chunk.css",
-    "main.js": "/static/js/main.44137716.chunk.js",
-    "main.js.map": "/static/js/main.44137716.chunk.js.map",
+    "main.js": "/static/js/main.de8c8db9.chunk.js",
+    "main.js.map": "/static/js/main.de8c8db9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c05907e2.js",
     "runtime-main.js.map": "/static/js/runtime-main.c05907e2.js.map",
     "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/carpark.526fbf1b.png": "/static/media/carpark.526fbf1b.png",
     "static/media/dogify.0fc90cd1.png": "/static/media/dogify.0fc90cd1.png",
     "static/media/hostdog.5862f433.png": "/static/media/hostdog.5862f433.png",
+    "static/media/netflix-clone.f5eb322a.png": "/static/media/netflix-clone.f5eb322a.png",
     "static/media/ninninger.29307aee.png": "/static/media/ninninger.29307aee.png",
     "static/media/personalwebsite.58a1c7be.png": "/static/media/personalwebsite.58a1c7be.png",
     "static/media/resume.faf287c6.pdf": "/static/media/resume.faf287c6.pdf",
@@ -25,6 +26,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.d12b08ed.chunk.js",
     "static/css/main.58c9d36b.chunk.css",
-    "static/js/main.44137716.chunk.js"
+    "static/js/main.de8c8db9.chunk.js"
   ]
 }
