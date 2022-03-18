@@ -5,6 +5,8 @@ import carparkImg from "../assets/portfolio/carpark.png";
 import ninningerImg from "../assets/portfolio/ninninger.png";
 import todoImg from "../assets/portfolio/todo.png";
 import netflixImg from "../assets/portfolio/netflix-clone.png";
+import tictactoeImg from "../assets/portfolio/tictactoe.png";
+
 const portfolioData = [
   {
     name: "Personal Website",
@@ -14,6 +16,15 @@ const portfolioData = [
     github: "https://github.com/pjpure/pjpure.github.io",
     demo: "",
     product: "https://pjpure.github.io/",
+  },
+  {
+    name: "Tic-Tac-Toe",
+    type: "web,game",
+    img: tictactoeImg,
+    des: "React, Express, Typescript, ReduxToolkit, Socket.io",
+    github: "https://github.com/pjpure/tic-tac-toe-game",
+    demo: "",
+    product: "https://tictactoe-pjpure.netlify.app/",
   },
   {
     name: "Netflix Clone",

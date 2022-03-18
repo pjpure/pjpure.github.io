@@ -11,7 +11,7 @@ function Portfolio() {
       if (state === "all") {
         return true;
       }
-      return project.type === state;
+      return project.type.includes(state);
     })
     .map((project, index) => {
       return (
