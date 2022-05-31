@@ -66,8 +66,8 @@ function Skills() {
 
             <p style={{ marginTop: "14px" }}>
               ReactJS, JavaScript, TypeScript, NodeJS, ExpressJS, ReduxToolkit,
-              HTML/CSS, Python, Django, Flask, Keras, C/C++, Java, R, C#, SQL,
-              ARM Assembly, Arduino, Git, MongoDB
+              HTML/CSS, Python, Django, Flask, Keras, C/C++, Java, Arduino, Git,
+              MongoDB
             </p>
           </Row>
         </div>

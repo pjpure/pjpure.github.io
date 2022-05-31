@@ -11,7 +11,7 @@ const profileData = {
   photo: "https://avatars.githubusercontent.com/u/53260091?v=4",
   position: "Software Developer",
   description:
-    "Hi, I am a 3rd year computer engineering student at King Mongkut's Institute of Technology Ladkrabang. I am interested in software development and innovations that will make everything easier, and have experience in front-end and back-end development. I intended to develop my skills and learn something new every day from your company.",
+    "I'm a 3rd year computer engineering student at King Mongkut's Institute of Technology Ladkrabang. I'm interested in software development and innovations, and have experience in front-end and back-end development. I'm looking for part-time job in front-end or back-end. I'm a fast learner and love to learn new things.",
   phone: "+6691-846-9519",
   email: "pattapon.pj@gmail.com",
   website: "pjpure.github.io",
